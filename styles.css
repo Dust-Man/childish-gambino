@@ -1,0 +1,202 @@
+
+html, body{
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins';
+  background-color: #fff;;
+  margin-top: 1rem;
+}
+
+main{
+  width: 100%;
+}
+
+#title{
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+}
+
+.sub-title{
+  text-align: center;
+  margin-top: -20px;
+}
+
+#image{
+  max-width: 100%;
+  height: atuto;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#img-div{
+  background-color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  color: #000;
+  border-radius: 5px;
+  width: 70%;
+}
+
+.info{
+  width: 100%;
+  background-color: #2A0C4E;
+  color: #fff;
+  padding: .5rem 2rem;
+}
+
+figcaption{
+  font-style: italic;
+  font-weight: 400;
+}
+
+.discography-caption{
+  padding: .5rem 2rem;
+  background-color: #EE964B;
+}
+
+.camp{
+  background-color: #1A1F16;
+  color: #fff;
+}
+
+.bti{
+  background-color: #EA526F;
+  color: #fff;
+}
+
+.kauai{
+  background-color: #F2F3AE;
+}
+
+.aml{
+  background-color: #3E92CC;
+  color: #fff;
+}
+
+.white{
+  background-color: #DCDCDD;
+}
+
+.album-title{
+  margin: 0;
+  padding: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  font-style: italic;
+  font-size: 2rem;
+}
+
+.album{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.album-image-container{
+  margin-top: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex:1;
+}
+
+.album-info{
+  
+  padding: .5rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.album-image{
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.spotify-album{
+  max-width: 70%;
+  margin: 10px auto;
+  padding: 1rem;
+  margin-bottom: 0;
+}
+
+
+
+@media screen and (max-width: 750px) {
+  .album {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .album-image-container,
+  .album-info {
+    flex: auto; 
+    width: 100%; 
+  }
+
+  .spotify-album{
+      max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .album-image{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    }
+
+    
+}
+
+@media screen and (max-width: 1000px){
+    #img-div{
+      width: 100%;
+    }
+}
+
+.listen::before{
+  content: "Listen ";
+}
+
+.listen::after{
+  content: " here:";
+}
+
+.link{
+  background-color:#2A0C4E; 
+  color: #fff;
+  margin: 0;
+  padding: 2rem .5rem;
+  text-align: center;
+}
+
+a{
+  color: #3E92CC;
+}
+
+a:hover{
+  cursor: pointer;
+  color: #B4869F;
+}
+
+a:active{
+  color: #fff;
+}
+
+
+
+
